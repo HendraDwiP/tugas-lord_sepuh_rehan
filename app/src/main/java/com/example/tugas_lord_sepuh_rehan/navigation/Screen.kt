@@ -4,7 +4,7 @@ sealed class Screen(val route: String, val title: String) {
     object Home : Screen("home", "Museum Indomie")
     object Koleksi : Screen("koleksi", "Koleksi Resep Mie Gotten")
     object About : Screen("about", "About me")
-    object Detail : Screen("detail", "Resep Krebi Peti")
+    object Detail : Screen("detail", "Detail")
 
     companion object {
         fun fromRoute(route: String?): Screen {

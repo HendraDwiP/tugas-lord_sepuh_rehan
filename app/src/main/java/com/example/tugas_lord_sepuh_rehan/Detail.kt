@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -14,6 +15,7 @@ import com.example.tugas_lord_sepuh_rehan.component.IndomieItem
 import com.example.tugas_lord_sepuh_rehan.data.MieData
 import com.example.tugas_lord_sepuh_rehan.model.Indomie
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
@@ -74,13 +76,15 @@ private fun DetailContent(
                 fontSize = 25.sp,
                 fontWeight = FontWeight.Bold
             )
+            Spacer(modifier = Modifier.height(8.dp))
             Text(
-                text = newList[0].tingkat,
-                style = MaterialTheme.typography.titleSmall,
+                text = "Tingkat kesulitan : "+ newList[0].tingkat,
+                style = MaterialTheme.typography.titleMedium,
             )
+            Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = newList[0].deskripsi,
-                style = MaterialTheme.typography.titleSmall,
+                style = MaterialTheme.typography.bodyMedium,
             )
         }
     }

@@ -36,7 +36,7 @@ fun MerkItem(
             .fillMaxWidth()
             .border(width = 2.dp, color = Color.Black)
             .background(color = Color.White)
-            .padding(5.dp)
+            .padding(start = 10.dp,end = 10.dp,bottom = 5.dp,top = 5.dp)
 
 
     ) {
