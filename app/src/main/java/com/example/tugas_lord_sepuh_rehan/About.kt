@@ -92,11 +92,11 @@ fun About(
         Spacer(modifier = Modifier.height(16.dp)
             .border(width = 2.dp, color = Color.Black) )
         Divider(
-            color = Color.Black, // Change color as needed
-            thickness = 1.dp, // Change thickness as needed
+            color = Color.Black,
+            thickness = 1.dp,
             modifier = Modifier
-                .fillMaxWidth() // Adjust width as needed
-                .padding(vertical = 8.dp) // Adjust padding as needed
+                .fillMaxWidth()
+                .padding(vertical = 8.dp)
         )
         Column(modifier = Modifier.padding(4.dp)) {
             Text(
