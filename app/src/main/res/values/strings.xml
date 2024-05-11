@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tugas-lord_sepuh_rehan</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Koleksi</string>
+    <string name="menu_course">Profil</string>
+    <string name="menu_share">Share</string>
+    <string name="infinite_share">Infinite Application</string>
+    <string name="share_message">Ayo Join MSIB Android Mobile Development di Infinite Learning!</string>
+</resources>
